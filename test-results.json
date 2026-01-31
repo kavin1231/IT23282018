@@ -1,0 +1,2057 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\kavin\\Desktop\\IT23282018\\playwright.config.js",
+    "rootDir": "C:/Users/kavin/Desktop/IT23282018/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/kavin/Desktop/IT23282018/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/kavin/Desktop/IT23282018/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ],
+      [
+        "line",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "all-positive-tests-complete.spec.js",
+      "file": "all-positive-tests-complete.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Positive Functional Tests - All 30 Tests",
+          "file": "all-positive-tests-complete.spec.js",
+          "line": 248,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC Pos_Fun_0001: Simple positive statement [S]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 16339,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0001: Simple positive statement ===\n"
+                        },
+                        {
+                          "text": "Category: Daily language usage • Simple sentence • S (≤30 characters) • Accuracy validation\n"
+                        },
+                        {
+                          "text": "Length Type: S\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"mata kiri bonna oonee\"\n"
+                        },
+                        {
+                          "text": "Waiting 3000ms for translation...\n"
+                        },
+                        {
+                          "text": "No output yet, waiting longer...\n"
+                        },
+                        {
+                          "text": "✅ Got output after retry: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                        },
+                        {
+                          "text": "Input (21 chars): \"mata kiri bonna oonee\"\n"
+                        },
+                        {
+                          "text": "Expected: \"මට කිරි බොන්න ඕනේ\"\n"
+                        },
+                        {
+                          "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                        },
+                        {
+                          "text": "✅ Sinhala produced (partial success)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:33:54.260Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-105596f6d57271baab34",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0002: Compound Sentence [M]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11969,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0002: Compound Sentence ===\n"
+                        },
+                        {
+                          "text": "Category: Daily language usage • Compound sentence • M (31–299 characters) • Accuracy validation\n"
+                        },
+                        {
+                          "text": "Length Type: M\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"mama kiri bonne naee, haebaeyi naqqgi bonavaa\"\n"
+                        },
+                        {
+                          "text": "Waiting 3000ms for translation...\n"
+                        },
+                        {
+                          "text": "✅ Got output: \"මම කිරි බොන්නෙ නෑ, හැබැයි නංගි බොනවා\"\n"
+                        },
+                        {
+                          "text": "Input (45 chars): \"mama kiri bonne naee, haebaeyi naqqgi bonavaa\"\n"
+                        },
+                        {
+                          "text": "Expected: \"මම කිරි බොන්නෙ නෑ, හැබැයි නංගි බොනවා\"\n"
+                        },
+                        {
+                          "text": "Actual: \"මම කිරි බොන්නෙ නෑ, හැබැයි නංගි බොනවා\"\n"
+                        },
+                        {
+                          "text": "✅ Exact match!\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:34:11.133Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-94a3bb5ca451a0f5afc3",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0003: Complex Sentence [S]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11943,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0003: Complex Sentence ===\n"
+                        },
+                        {
+                          "text": "Category: Daily language usage • Complex sentence • S (≤30 characters) • Accuracy validation\n"
+                        },
+                        {
+                          "text": "Length Type: S\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"mama parakku velaa giyoth thaaththa mata baniivi\"\n"
+                        },
+                        {
+                          "text": "Waiting 3000ms for translation...\n"
+                        },
+                        {
+                          "text": "✅ Got output: \"මම පරක්කු වෙලා ගියොත් තාත්ත මට බනීවි\"\n"
+                        },
+                        {
+                          "text": "Input (48 chars): \"mama parakku velaa giyoth thaaththa mata baniivi\"\n"
+                        },
+                        {
+                          "text": "Expected: \"මම පරක්කු වෙලා ගියොත් තාත්ත මට බනීවි\"\n"
+                        },
+                        {
+                          "text": "Actual: \"මම පරක්කු වෙලා ගියොත් තාත්ත මට බනීවි\"\n"
+                        },
+                        {
+                          "text": "✅ Exact match!\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:34:23.119Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-2e8260bd9c497b1b395c",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0004: Interrogative Question [M]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 13938,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0004: Interrogative Question ===\n"
+                        },
+                        {
+                          "text": "Category: Daily language usage • Interrogative sentence • M (31–299 characters) • Accuracy validation\n"
+                        },
+                        {
+                          "text": "Length Type: M\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"machan heta havasata mokadha karanne kiyalaa kiyan...\"\n"
+                        },
+                        {
+                          "text": "Waiting 5000ms for translation...\n"
+                        },
+                        {
+                          "text": "✅ Got output: \"මචන් හෙට හවසට මොකද කරන්නේ කියලා කියන්න පුලුවන්ද?\"\n"
+                        },
+                        {
+                          "text": "Input (64 chars): \"machan heta havasata mokadha karanne kiyalaa kiyan...\"\n"
+                        },
+                        {
+                          "text": "Expected: \"මචන් හෙට හවසට මොකද කරන්නේ කියලා කියන්න පුලුවන්ද?\"\n"
+                        },
+                        {
+                          "text": "Actual: \"මචන් හෙට හවසට මොකද කරන්නේ කියලා කියන්න පුලුවන්ද?\"\n"
+                        },
+                        {
+                          "text": "✅ Exact match!\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:34:35.076Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-a92e3912a953934a1d4d",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0005: Imperative Command [S]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11813,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0005: Imperative Command ===\n"
+                        },
+                        {
+                          "text": "Category: Daily language usage • Imperative sentence • S (≤30 characters) • Accuracy validation\n"
+                        },
+                        {
+                          "text": "Length Type: S\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"karuNaakarala mee potha mata dhenna\"\n"
+                        },
+                        {
+                          "text": "Waiting 3000ms for translation...\n"
+                        },
+                        {
+                          "text": "✅ Got output: \"කරුණාකරල මේ පොත මට දෙන්න\"\n"
+                        },
+                        {
+                          "text": "Input (35 chars): \"karuNaakarala mee potha mata dhenna\"\n"
+                        },
+                        {
+                          "text": "Expected: \"කරුණාකරල මේ පොත මට දෙන්න\"\n"
+                        },
+                        {
+                          "text": "Actual: \"කරුණාකරල මේ පොත මට දෙන්න\"\n"
+                        },
+                        {
+                          "text": "✅ Exact match!\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:34:49.026Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-c31ab4e74d79d791a14d",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0006: Negative Sentence [S]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12114,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0006: Negative Sentence ===\n"
+                        },
+                        {
+                          "text": "Category: Daily language usage • Negative sentence • S (≤30 characters) • Accuracy validation\n"
+                        },
+                        {
+                          "text": "Length Type: S\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"naee mama eeka karannee naehae\"\n"
+                        },
+                        {
+                          "text": "Waiting 3000ms for translation...\n"
+                        },
+                        {
+                          "text": "✅ Got output: \"නෑ මම ඒක කරන්නේ නැහැ\"\n"
+                        },
+                        {
+                          "text": "Input (30 chars): \"naee mama eeka karannee naehae\"\n"
+                        },
+                        {
+                          "text": "Expected: \"නෑ මම ඒක කරන්නේ නැහැ\"\n"
+                        },
+                        {
+                          "text": "Actual: \"නෑ මම ඒක කරන්නේ නැහැ\"\n"
+                        },
+                        {
+                          "text": "✅ Exact match!\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:35:00.853Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-29c4e44bf679b5c02412",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0007: Greeting [S]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11819,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0007: Greeting ===\n"
+                        },
+                        {
+                          "text": "Category: Daily language usage • Simple sentence • S (≤30 characters) • Accuracy validation\n"
+                        },
+                        {
+                          "text": "Length Type: S\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"suba udhaeesanak\"\n"
+                        },
+                        {
+                          "text": "Waiting 3000ms for translation...\n"
+                        },
+                        {
+                          "text": "✅ Got output: \"සුබ උදෑසනක්\"\n"
+                        },
+                        {
+                          "text": "Input (16 chars): \"suba udhaeesanak\"\n"
+                        },
+                        {
+                          "text": "Expected: \"සුබ උදෑසනක්\"\n"
+                        },
+                        {
+                          "text": "Actual: \"සුබ උදෑසනක්\"\n"
+                        },
+                        {
+                          "text": "✅ Exact match!\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:35:12.978Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-c73eb8406eeb734a86e5",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0008: Polite Request [M]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11880,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0008: Polite Request ===\n"
+                        },
+                        {
+                          "text": "Category: Daily language usage • Polite request • M (31–299 characters) • Accuracy validation\n"
+                        },
+                        {
+                          "text": "Length Type: M\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"mata bonna elakiri ekak hadhala dhenna puluvandha?\"\n"
+                        },
+                        {
+                          "text": "Waiting 3000ms for translation...\n"
+                        },
+                        {
+                          "text": "✅ Got output: \"මට බොන්න එලකිරි එකක් හදල දෙන්න පුලුවන්ද?\"\n"
+                        },
+                        {
+                          "text": "Input (50 chars): \"mata bonna elakiri ekak hadhala dhenna puluvandha?\"\n"
+                        },
+                        {
+                          "text": "Expected: \"මට බොන්න එලකිරි එකක් හදල දෙන්න පුලුවන්ද?\"\n"
+                        },
+                        {
+                          "text": "Actual: \"මට බොන්න එලකිරි එකක් හදල දෙන්න පුලුවන්ද?\"\n"
+                        },
+                        {
+                          "text": "✅ Exact match!\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:35:24.812Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-e3ec05ef836504dcf014",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0009: Simple Response [S]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11940,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0009: Simple Response ===\n"
+                        },
+                        {
+                          "text": "Category: Daily language usage • Simple sentence • S (≤30 characters) • Accuracy validation\n"
+                        },
+                        {
+                          "text": "Length Type: S\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"hari mama innam\"\n"
+                        },
+                        {
+                          "text": "Waiting 3000ms for translation...\n"
+                        },
+                        {
+                          "text": "✅ Got output: \"හරි මම ඉන්නම්\"\n"
+                        },
+                        {
+                          "text": "Input (15 chars): \"hari mama innam\"\n"
+                        },
+                        {
+                          "text": "Expected: \"හරි මම ඉන්නම්\"\n"
+                        },
+                        {
+                          "text": "Actual: \"හරි මම ඉන්නම්\"\n"
+                        },
+                        {
+                          "text": "✅ Exact match!\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:35:36.708Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-672e6ff1633ce6475fae",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0010: Collocation [M]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 14018,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0010: Collocation ===\n"
+                        },
+                        {
+                          "text": "Category: Daily language usage • Complex sentence • M (31–299 characters) • Accuracy validation\n"
+                        },
+                        {
+                          "text": "Length Type: M\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"mage adha dhavase vaeda okkoma ivarayi, mama dhan ...\"\n"
+                        },
+                        {
+                          "text": "Waiting 5000ms for translation...\n"
+                        },
+                        {
+                          "text": "✅ Got output: \"mage අද දවසෙ වැඩ ඔක්කොම ඉවරයි, මම දන් ගෙදර යනවා\"\n"
+                        },
+                        {
+                          "text": "Input (65 chars): \"mage adha dhavase vaeda okkoma ivarayi, mama dhan ...\"\n"
+                        },
+                        {
+                          "text": "Expected: \"මගේ අද දවසේ වැඩ ඔක්කොම ඉවරයි, මම දැන් ගෙදර යනවා\"\n"
+                        },
+                        {
+                          "text": "Actual: \"mage අද දවසෙ වැඩ ඔක්කොම ඉවරයි, මම දන් ගෙදර යනවා\"\n"
+                        },
+                        {
+                          "text": "✅ Sinhala produced (partial success)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:35:48.659Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-7064cacd6a927c71a19a",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0011: Joined Words [S]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11958,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0011: Joined Words ===\n"
+                        },
+                        {
+                          "text": "Category: Spacing/punctuation • Single long word • S (≤30 characters) • Robustness validation\n"
+                        },
+                        {
+                          "text": "Length Type: S\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"mamadhaenmeepadamkaranava\"\n"
+                        },
+                        {
+                          "text": "Waiting 3000ms for translation...\n"
+                        },
+                        {
+                          "text": "✅ Got output: \"මමදැන්මේපඩම්කරනව\"\n"
+                        },
+                        {
+                          "text": "Input (25 chars): \"mamadhaenmeepadamkaranava\"\n"
+                        },
+                        {
+                          "text": "Expected: \"මමදැන්මේපඩම්කරනව\"\n"
+                        },
+                        {
+                          "text": "Actual: \"මමදැන්මේපඩම්කරනව\"\n"
+                        },
+                        {
+                          "text": "✅ Exact match!\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:36:02.688Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-ca71b7fb28da7040aa80",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0012: Repeated Words for Emphasis [S]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12073,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0012: Repeated Words for Emphasis ===\n"
+                        },
+                        {
+                          "text": "Category: Spacing/punctuation • Repeated words • S (≤30 characters) • Robustness validation\n"
+                        },
+                        {
+                          "text": "Length Type: S\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"dhuvamu dhuvamu ikmanata\"\n"
+                        },
+                        {
+                          "text": "Waiting 3000ms for translation...\n"
+                        },
+                        {
+                          "text": "✅ Got output: \"දුවමු දුවමු ඉක්මනට\"\n"
+                        },
+                        {
+                          "text": "Input (24 chars): \"dhuvamu dhuvamu ikmanata\"\n"
+                        },
+                        {
+                          "text": "Expected: \"දුවමු දුවමු ඉක්මනට\"\n"
+                        },
+                        {
+                          "text": "Actual: \"දුවමු දුවමු ඉක්මනට\"\n"
+                        },
+                        {
+                          "text": "✅ Exact match!\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:36:14.671Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-518385cf3bc79ae78731",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0013: Past Tense [M]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12940,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0013: Past Tense ===\n"
+                        },
+                        {
+                          "text": "Category: Tense handling • Past tense • M (31–299 characters) • Accuracy validation\n"
+                        },
+                        {
+                          "text": "Length Type: M\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"iiye api vaththe godak velaa sellam karaa\"\n"
+                        },
+                        {
+                          "text": "Waiting 3000ms for translation...\n"
+                        },
+                        {
+                          "text": "✅ Got output: \"ඊයෙ අපි වත්තෙ ගොඩක් වෙලා සෙල්ලම් කරා\"\n"
+                        },
+                        {
+                          "text": "Input (41 chars): \"iiye api vaththe godak velaa sellam karaa\"\n"
+                        },
+                        {
+                          "text": "Expected: \"ඊයෙ අපි වත්තෙ ගොඩක් වෙලා සෙල්ලම් කරා\"\n"
+                        },
+                        {
+                          "text": "Actual: \"ඊයෙ අපි වත්තෙ ගොඩක් වෙලා සෙල්ලම් කරා\"\n"
+                        },
+                        {
+                          "text": "✅ Exact match!\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:36:26.760Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-8315367f2111ae66002c",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0014: Present Tense [S]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11996,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0014: Present Tense ===\n"
+                        },
+                        {
+                          "text": "Category: Tense handling • Present tense • S (≤30 characters) • Accuracy validation\n"
+                        },
+                        {
+                          "text": "Length Type: S\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"mama dhaen sellam karanavaa\"\n"
+                        },
+                        {
+                          "text": "Waiting 3000ms for translation...\n"
+                        },
+                        {
+                          "text": "✅ Got output: \"මම දැන් සෙල්ලම් කරනවා\"\n"
+                        },
+                        {
+                          "text": "Input (27 chars): \"mama dhaen sellam karanavaa\"\n"
+                        },
+                        {
+                          "text": "Expected: \"මම දැන් සෙල්ලම් කරනවා\"\n"
+                        },
+                        {
+                          "text": "Actual: \"මම දැන් සෙල්ලම් කරනවා\"\n"
+                        },
+                        {
+                          "text": "✅ Exact match!\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:36:39.710Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-7743a0cc3a16e3a5d134",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0015: Future Tense [S]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 15664,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0015: Future Tense ===\n"
+                        },
+                        {
+                          "text": "Category: Tense handling • Future tense • S (≤30 characters) • Accuracy validation\n"
+                        },
+                        {
+                          "text": "Length Type: S\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"api heta geem ekak gahamu\"\n"
+                        },
+                        {
+                          "text": "Waiting 3000ms for translation...\n"
+                        },
+                        {
+                          "text": "No output yet, waiting longer...\n"
+                        },
+                        {
+                          "text": "✅ Got output after retry: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                        },
+                        {
+                          "text": "Input (25 chars): \"api heta geem ekak gahamu\"\n"
+                        },
+                        {
+                          "text": "Expected: \"අපි හෙට ගේම් එකක් ගහමු\"\n"
+                        },
+                        {
+                          "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                        },
+                        {
+                          "text": "✅ Sinhala produced (partial success)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:36:51.715Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-11fec1ec1c5ffc0d00b6",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0016: Plural Usage [M]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 14010,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0016: Plural Usage ===\n"
+                        },
+                        {
+                          "text": "Category: Grammar/linguistic • Plural forms • M (31–299 characters) • Accuracy validation\n"
+                        },
+                        {
+                          "text": "Length Type: M\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"minissu seerama ehe mehe baya velaa dhivva nisaa, ...\"\n"
+                        },
+                        {
+                          "text": "Waiting 5000ms for translation...\n"
+                        },
+                        {
+                          "text": "✅ Got output: \"මිනිස්සු සේරම එහෙ මෙහෙ බය වෙලා දිව්ව නිසා, මත් දිව...\"\n"
+                        },
+                        {
+                          "text": "Input (62 chars): \"minissu seerama ehe mehe baya velaa dhivva nisaa, ...\"\n"
+                        },
+                        {
+                          "text": "Expected: \"මිනිස්සු සේරම එහෙ මෙහෙ බය වෙලා දිව්ව නිසා, මත් දිව...\"\n"
+                        },
+                        {
+                          "text": "Actual: \"මිනිස්සු සේරම එහෙ මෙහෙ බය වෙලා දිව්ව නිසා, මත් දිව...\"\n"
+                        },
+                        {
+                          "text": "✅ Exact match!\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:37:07.391Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-308ffca7706351a6aaf4",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0017: High Politeness [S]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12108,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0017: High Politeness ===\n"
+                        },
+                        {
+                          "text": "Category: Grammar/linguistic • Politeness levels • S (≤30 characters) • Accuracy validation\n"
+                        },
+                        {
+                          "text": "Length Type: S\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"karunakarala mata oya paeena dhenna\"\n"
+                        },
+                        {
+                          "text": "Waiting 3000ms for translation...\n"
+                        },
+                        {
+                          "text": "✅ Got output: \"කරුනකරල මට ඔය පෑන දෙන්න\"\n"
+                        },
+                        {
+                          "text": "Input (35 chars): \"karunakarala mata oya paeena dhenna\"\n"
+                        },
+                        {
+                          "text": "Expected: \"කරුණාකරල මට ඔය පෑන දෙන්න\"\n"
+                        },
+                        {
+                          "text": "Actual: \"කරුනකරල මට ඔය පෑන දෙන්න\"\n"
+                        },
+                        {
+                          "text": "✅ Sinhala produced (partial success)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:37:21.411Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-52ae80273003026bc0f1",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0018: English Technical Terms [M]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 14968,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0018: English Technical Terms ===\n"
+                        },
+                        {
+                          "text": "Category: English mixing • Technical terms • M (31–299 characters) • Accuracy validation\n"
+                        },
+                        {
+                          "text": "Length Type: M\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"Facebook ekee aluthin photo ekak upload karanna oo...\"\n"
+                        },
+                        {
+                          "text": "Waiting 5000ms for translation...\n"
+                        },
+                        {
+                          "text": "✅ Got output: \"Facebook එකේ අලුතින් photo එකක් upload කරන්න ඕනෙ\"\n"
+                        },
+                        {
+                          "text": "Input (52 chars): \"Facebook ekee aluthin photo ekak upload karanna oo...\"\n"
+                        },
+                        {
+                          "text": "Expected: \"Facebook එකේ අලුතින් photo එකක් upload කරන්න ඕනෙ\"\n"
+                        },
+                        {
+                          "text": "Actual: \"Facebook එකේ අලුතින් photo එකක් upload කරන්න ඕනෙ\"\n"
+                        },
+                        {
+                          "text": "✅ Exact match!\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:37:33.534Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-77c0870a5e1ce0a22f3d",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0019: Places and Names [M]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 13920,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0019: Places and Names ===\n"
+                        },
+                        {
+                          "text": "Category: English mixing • Proper nouns • M (31–299 characters) • Accuracy validation\n"
+                        },
+                        {
+                          "text": "Length Type: M\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"heta api Nugegoda yanava Kandy ekata adhum vagayak...\"\n"
+                        },
+                        {
+                          "text": "Waiting 5000ms for translation...\n"
+                        },
+                        {
+                          "text": "✅ Got output: \"හෙට අපි Nugegoda යනව Kandy එකට අදුම් වගයක් ගන්න\"\n"
+                        },
+                        {
+                          "text": "Input (56 chars): \"heta api Nugegoda yanava Kandy ekata adhum vagayak...\"\n"
+                        },
+                        {
+                          "text": "Expected: \"හෙට අපි Nugegoda යනව Kandy එකට අදුම් වගයක් ගන්න\"\n"
+                        },
+                        {
+                          "text": "Actual: \"හෙට අපි Nugegoda යනව Kandy එකට අදුම් වගයක් ගන්න\"\n"
+                        },
+                        {
+                          "text": "✅ Exact match!\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:37:48.513Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-79292dc4fdc8220e351a",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0020: English Abbreviations [S]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12035,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0020: English Abbreviations ===\n"
+                        },
+                        {
+                          "text": "Category: English mixing • Common abbreviations • S (≤30 characters) • Accuracy validation\n"
+                        },
+                        {
+                          "text": "Length Type: S\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"mata chicken kanna onee\"\n"
+                        },
+                        {
+                          "text": "Waiting 3000ms for translation...\n"
+                        },
+                        {
+                          "text": "✅ Got output: \"මට chicken කන්න ඔනේ\"\n"
+                        },
+                        {
+                          "text": "Input (23 chars): \"mata chicken kanna onee\"\n"
+                        },
+                        {
+                          "text": "Expected: \"මට chicken කන්න ඔනේ\"\n"
+                        },
+                        {
+                          "text": "Actual: \"මට chicken කන්න ඔනේ\"\n"
+                        },
+                        {
+                          "text": "✅ Exact match!\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:38:02.447Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-55f56135e0ac6cb0e0d6",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0021: Punctuation Input [S]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12923,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0021: Punctuation Input ===\n"
+                        },
+                        {
+                          "text": "Category: Punctuation/numbers • Mixed punctuation • S (≤30 characters) • Robustness validation\n"
+                        },
+                        {
+                          "text": "Length Type: S\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"Hello! kohomadha ithin?\"\n"
+                        },
+                        {
+                          "text": "Waiting 3000ms for translation...\n"
+                        },
+                        {
+                          "text": "✅ Got output: \"Hello! කොහොමද ඉතින්?\"\n"
+                        },
+                        {
+                          "text": "Input (23 chars): \"Hello! kohomadha ithin?\"\n"
+                        },
+                        {
+                          "text": "Expected: \"Hello! කොහොමද ඉතින්?\"\n"
+                        },
+                        {
+                          "text": "Actual: \"Hello! කොහොමද ඉතින්?\"\n"
+                        },
+                        {
+                          "text": "✅ Exact match!\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:38:14.493Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-828021928be40d6110cf",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0022: Currency and Units [S]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11969,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0022: Currency and Units ===\n"
+                        },
+                        {
+                          "text": "Category: Punctuation/numbers • Currency/units • S (≤30 characters) • Robustness validation\n"
+                        },
+                        {
+                          "text": "Length Type: S\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"methana siini 5kg thiinavaa mila Rs.1000\"\n"
+                        },
+                        {
+                          "text": "Waiting 3000ms for translation...\n"
+                        },
+                        {
+                          "text": "✅ Got output: \"මෙතන සීනි 5kg තීනවා මිල Rs.1000\"\n"
+                        },
+                        {
+                          "text": "Input (40 chars): \"methana siini 5kg thiinavaa mila Rs.1000\"\n"
+                        },
+                        {
+                          "text": "Expected: \"මෙතන සීනි 5kg තීනවා මිල Rs.1000\"\n"
+                        },
+                        {
+                          "text": "Actual: \"මෙතන සීනි 5kg තීනවා මිල Rs.1000\"\n"
+                        },
+                        {
+                          "text": "✅ Exact match!\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:38:27.430Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-3a793d57b039f66c4686",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0023: Slang Usage [S]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12987,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0023: Slang Usage ===\n"
+                        },
+                        {
+                          "text": "Category: Slang/informal language • Slang terms • S (≤30 characters) • Robustness validation\n"
+                        },
+                        {
+                          "text": "Length Type: S\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"ammatasiri maru nee\"\n"
+                        },
+                        {
+                          "text": "Waiting 3000ms for translation...\n"
+                        },
+                        {
+                          "text": "✅ Got output: \"අම්මටසිරි මරු නේ\"\n"
+                        },
+                        {
+                          "text": "Input (19 chars): \"ammatasiri maru nee\"\n"
+                        },
+                        {
+                          "text": "Expected: \"අම්මටසිරි මරු නේ\"\n"
+                        },
+                        {
+                          "text": "Actual: \"අම්මටසිරි මරු නේ\"\n"
+                        },
+                        {
+                          "text": "✅ Exact match!\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:38:39.411Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-fe60853f39ec986fb85a",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0024: Multiple Spaces [M]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 14071,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0024: Multiple Spaces ===\n"
+                        },
+                        {
+                          "text": "Category: Spacing/punctuation • Multiple spaces • M (31–299 characters) • Robustness validation\n"
+                        },
+                        {
+                          "text": "Length Type: M\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"mama   heta    yanava   panadhureeta   salli   vag...\"\n"
+                        },
+                        {
+                          "text": "Waiting 5000ms for translation...\n"
+                        },
+                        {
+                          "text": "✅ Got output: \"මම   හෙට    යනව   පනදුරේට   සල්ලි   වගයක්     දාන්...\"\n"
+                        },
+                        {
+                          "text": "Input (66 chars): \"mama   heta    yanava   panadhureeta   salli   vag...\"\n"
+                        },
+                        {
+                          "text": "Expected: \"මම   හෙට    යනව   පනදුරේට   සල්ලි   වගයක්     දාන්...\"\n"
+                        },
+                        {
+                          "text": "Actual: \"මම   හෙට    යනව   පනදුරේට   සල්ලි   වගයක්     දාන්...\"\n"
+                        },
+                        {
+                          "text": "✅ Exact match!\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:38:52.412Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-820e5faa2e9f4ad4c146",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0025: Date and Time [M]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12650,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0025: Date and Time ===\n"
+                        },
+                        {
+                          "text": "Category: Punctuation/numbers • Date/time format • M (31–299 characters) • Robustness validation\n"
+                        },
+                        {
+                          "text": "Length Type: M\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"meeting eka december 25, 2024 udhee 10.30 AM vagee\"\n"
+                        },
+                        {
+                          "text": "Waiting 3000ms for translation...\n"
+                        },
+                        {
+                          "text": "✅ Got output: \"meeting එක december 25, 2024 උදේ 10.30 AM වගේ\"\n"
+                        },
+                        {
+                          "text": "Input (50 chars): \"meeting eka december 25, 2024 udhee 10.30 AM vagee\"\n"
+                        },
+                        {
+                          "text": "Expected: \"meeting එක december 25, 2024 උදේ 10.30 AM වගේ\"\n"
+                        },
+                        {
+                          "text": "Actual: \"meeting එක december 25, 2024 උදේ 10.30 AM වගේ\"\n"
+                        },
+                        {
+                          "text": "✅ Exact match!\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:39:06.495Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-ce34dc51fdb7151cb473",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0026: Multi-line Input with Line Breaks [M]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 17011,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0026: Multi-line Input with Line Breaks ===\n"
+                        },
+                        {
+                          "text": "Category: Formatting (paragraph) • Multi-line input • M (31–299 characters) • Robustness validation\n"
+                        },
+                        {
+                          "text": "Length Type: M\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"mama adha gedhara yanava. heta vaedata yanavaa. pa...\"\n"
+                        },
+                        {
+                          "text": "Waiting 5000ms for translation...\n"
+                        },
+                        {
+                          "text": "No output yet, waiting longer...\n"
+                        },
+                        {
+                          "text": "✅ Got output after retry: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                        },
+                        {
+                          "text": "Input (75 chars): \"mama adha gedhara yanava. heta vaedata yanavaa. pa...\"\n"
+                        },
+                        {
+                          "text": "Expected: \"මම අද ගෙදර යනවා. හෙට වැඩට යනවා. පස්සේ රෑ කෑමටත් යම...\"\n"
+                        },
+                        {
+                          "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                        },
+                        {
+                          "text": "✅ Sinhala produced (partial success)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:39:19.157Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-4b9f9e43e010a25112b7",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0027: English Abbreviations [S]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 15176,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0027: English Abbreviations ===\n"
+                        },
+                        {
+                          "text": "Category: English mixing • Abbreviations • S (≤30 characters) • Accuracy validation\n"
+                        },
+                        {
+                          "text": "Length Type: S\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"mata PDF eka evanna\"\n"
+                        },
+                        {
+                          "text": "Waiting 3000ms for translation...\n"
+                        },
+                        {
+                          "text": "No output yet, waiting longer...\n"
+                        },
+                        {
+                          "text": "✅ Got output after retry: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                        },
+                        {
+                          "text": "Input (19 chars): \"mata PDF eka evanna\"\n"
+                        },
+                        {
+                          "text": "Expected: \"මට PDF එක එවන්න\"\n"
+                        },
+                        {
+                          "text": "Actual: \"Singlish ↔ English TranslatorHelpSwitch Typing Lan...\"\n"
+                        },
+                        {
+                          "text": "✅ Sinhala produced (partial success)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:39:36.180Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-c46892c2937654e24925",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0028: Pronoun Variation [S]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12041,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0028: Pronoun Variation ===\n"
+                        },
+                        {
+                          "text": "Category: Grammar/linguistic • Pronoun usage • S (≤30 characters) • Accuracy validation\n"
+                        },
+                        {
+                          "text": "Length Type: S\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"mama heta office ekatath yanavaa\"\n"
+                        },
+                        {
+                          "text": "Waiting 3000ms for translation...\n"
+                        },
+                        {
+                          "text": "✅ Got output: \"මම හෙට office එකටත් යනවා\"\n"
+                        },
+                        {
+                          "text": "Input (32 chars): \"mama heta office ekatath yanavaa\"\n"
+                        },
+                        {
+                          "text": "Expected: \"මම හෙට office එකටත් යනවා\"\n"
+                        },
+                        {
+                          "text": "Actual: \"මම හෙට office එකටත් යනවා\"\n"
+                        },
+                        {
+                          "text": "✅ Exact match!\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:39:51.369Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-e2e3a9514c6ca559fe46",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0029: Request with Poleness Variation [S]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12324,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0029: Request with Poleness Variation ===\n"
+                        },
+                        {
+                          "text": "Category: Grammar/linguistic • Politeness variations • S (≤30 characters) • Accuracy validation\n"
+                        },
+                        {
+                          "text": "Length Type: S\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"karunaakara dheveni mahalata yanna\"\n"
+                        },
+                        {
+                          "text": "Waiting 3000ms for translation...\n"
+                        },
+                        {
+                          "text": "✅ Got output: \"කරුනාකර දෙවෙනි මහලට යන්න\"\n"
+                        },
+                        {
+                          "text": "Input (34 chars): \"karunaakara dheveni mahalata yanna\"\n"
+                        },
+                        {
+                          "text": "Expected: \"කරුණාකර දෙවනි මහලට යන්න\"\n"
+                        },
+                        {
+                          "text": "Actual: \"කරුනාකර දෙවෙනි මහලට යන්න\"\n"
+                        },
+                        {
+                          "text": "✅ Sinhala produced (partial success)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:40:03.426Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-3de1facc4a233c571484",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            },
+            {
+              "title": "TC Pos_Fun_0030: Long Input (>=300 characters) [L]",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 16019,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n=== TC Pos_Fun_0030: Long Input (>=300 characters) ===\n"
+                        },
+                        {
+                          "text": "Category: Formatting (paragraph) • Complex sentence • L (≥300 characters) • Robustness validation\n"
+                        },
+                        {
+                          "text": "Length Type: L\n"
+                        },
+                        {
+                          "text": "\n🔤 Translating: \"mama adha magee sahodharayage gedhara yanava. mage...\"\n"
+                        },
+                        {
+                          "text": "Waiting 7000ms for translation...\n"
+                        },
+                        {
+                          "text": "✅ Got output: \"මම අද මගේ සහොදරයගෙ ගෙදර යනව. මගේ සහොදරය මාව cinema...\"\n"
+                        },
+                        {
+                          "text": "Input (556 chars): \"mama adha magee sahodharayage gedhara yanava. mage...\"\n"
+                        },
+                        {
+                          "text": "Expected: \"මම අද මගේ සහොදරයගෙ ගෙදර යනව. මගේ සහොදරය මාව cinema...\"\n"
+                        },
+                        {
+                          "text": "Actual: \"මම අද මගේ සහොදරයගෙ ගෙදර යනව. මගේ සහොදරය මාව cinema...\"\n"
+                        },
+                        {
+                          "text": "✅ Long text test passed - contains key Sinhala words\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T17:40:15.761Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cd745ccc565462d49842-a1245922a2aedbc09d51",
+              "file": "all-positive-tests-complete.spec.js",
+              "line": 257,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-01-31T17:33:53.160Z",
+    "duration": 398896.591,
+    "expected": 30,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
