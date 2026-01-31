@@ -22,15 +22,17 @@ Complete automated testing solution for Swift Translator (Singlish to Sinhala co
 npm install
 npx playwright install
 
-# Run positive tests with reports
-npx playwright test all-positive-tests-complete.spec.js --reporter=html
+# Command 1: Run all tests
+npx playwright test --headed
 
-# Run negative tests
-npx playwright test all-negative-tests-complete.spec.js --reporter=html
+# Command 2: Run positive tests only
+npx playwright test all-positive-tests-complete.spec.js --headed
 
-# View reports
+# Command 3: Run negative tests only
+npx playwright test all-negative-tests-complete.spec.js --headed
+
+# Command 4: Run UI tests only
+npx playwright test all-ui-tests-complete.spec.js --headed
+
+# Command 5: View reports
 npx playwright show-report
-
-# Generate Excel report
-node generate-excel-report-complete.js
-```
